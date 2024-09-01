@@ -5,3 +5,15 @@ Universal PC Optimization is your go-to guide for all things related to enhancin
 The information provided in Universal PC Optimization is intended for educational and informational purposes only. While every effort has been made to ensure the accuracy and reliability of the content, it is important to understand that all advice, tips, and suggestions are to be used at your own risk.
 
 Modifying system settings, tweaking hardware, and making changes to your PC can have unintended consequences. Always double-check any modifications or changes against the manufacturer’s guidelines and documentation. The authors and contributors of this guide are not liable for any damages, loss of data, or hardware failures that may result from following the information provided. Proceed with caution and always make sure to back up your data before making any changes to your system.
+
+
+## Why I decided to create this
+<details>
+  <summary>Little story of troubleshooting issues with my PC</summary>
+
+Thank you for taking some time to read my story
+
+  </details>
+
+
+--
