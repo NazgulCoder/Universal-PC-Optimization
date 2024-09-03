@@ -33,10 +33,18 @@ I'll divide the guide into multiple chapters to improve readability and split it
 
 # Software
 ## Optimize Windows
-It might sound odd, but many people believe Windows is the perfect environment where everything should be working flawlessly. Hard pill to swallow: NO!
+It might sound odd, but many people believe that Windows is a perfect environment where everything should work flawlessly. Hard pill to swallow: it's not!
 
-Windows comes with a lot of junk installed by default. Plus, many manufacturers add their junk stuff. Luckily there are many tools out there to de-bloat your system and improve performance.
+Windows comes with a lot of unnecessary software installed by default, and many manufacturers add their own bloatware. Fortunately, there are many tools available to de-bloat your system and improve performance.
 
-One of my favourite software to do that it's [Optimizer](https://github.com/hellzerg/optimizer)
+One of my favorite tools for this purpose is [Optimizer](https://github.com/hellzerg/optimizer)
 
-My recommendation is to turn on the <ins>**Optimize Performance**</ins> option, enable <ins>**Gaming Mode**</ins>. If it is not necessary or requested by your games or apps, I highly recommend you to turn off the <ins>**Xbox Live**</ins> and <ins>**Game Bar**</ins>.
+I recommend enabling the <ins>**Optimize Performance**</ins> option and turning on <ins>**Gaming Mode**</ins>. If your games or apps do not require it, I highly recommend turning off <ins>**Xbox Live**</ins> and the <ins>**Game Bar**</ins>.
+
+You can also disable app telemetry to improve your privacy and slightly enhance performance.
+
+Other honorable mentions for fine-tuning your PC, cleaning it of junk, and improving overall performance and stability are:
+- [dMaintenance Home Edition](https://www.d7xtech.com/dmaintenance-home-edition/)
+- [Tweaky](https://www.d7xtech.com/tweaky/) 
+- [CCleaner](https://www.ccleaner.com/ccleaner/download) - Mainly used for cleaning, fixing the registry, uninstalling apps, and removing unwanted apps from startup - **BEWARE OF INTRUSIVE ADS**
+- [AdwCleaner](https://www.malwarebytes.com/adwcleaner) - Remove Bloatwares
