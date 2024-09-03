@@ -54,6 +54,8 @@ To ensure the integrity of your Windows installation, I highly recommend running
 
 ```Dism /Online /Cleanup-Image /RestoreHealth``` - Repairs the component store to restore system health.
 
+If you are using an x64 Windows version, you can use my [PCNukerPro](https://github.com/NazgulCoder/PCNukerPro)
+
 ## Optimize Windows
 It might sound odd, but many people believe that Windows is a perfect environment where everything should work flawlessly. Hard pill to swallow: it's not!
 
