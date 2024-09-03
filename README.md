@@ -25,6 +25,8 @@ The guide below is a kind of story about all the steps I took to debug and ident
 
 I'll divide the guide into multiple chapters to improve readability and split it into 2 Macro topics: Software and Hardware
 - [Software](#software)
+  - [Update Windows](#update-windows)
+  - [Verify Windows](#verify-windows)
   - [Optimize Windows](#optimize-windows)
   - [Steps](#steps)
 - [Hardware](#hardware)
@@ -32,6 +34,26 @@ I'll divide the guide into multiple chapters to improve readability and split it
   - [Advanced Usage](#advanced-usage)
 
 # Software
+## Update Windows
+It might sound obvious, but keeping Windows, drivers, and software updated is the first step to maintaining a fully functioning machine.
+
+Always refer to your component manufacturers and ensure you download the correct drivers and updates.
+
+I don't recommend using software that automatically updates your drivers; Windows Update is more than sufficient.
+
+## Verify Windows
+To ensure the integrity of your Windows installation, I highly recommend running the following commands in Command Prompt (preferably as an administrator):
+
+```chkdsk``` - Verifies the integrity of disk sectors.
+
+```sfc /scannow``` - Scans and repairs system files to verify system integrity.
+
+```Dism /Online /Cleanup-Image /CheckHealth``` - Checks for component store corruption.
+
+```Dism /Online /Cleanup-Image /ScanHealth``` - Scans the component store for corruption.
+
+```Dism /Online /Cleanup-Image /RestoreHealth``` - Repairs the component store to restore system health.
+
 ## Optimize Windows
 It might sound odd, but many people believe that Windows is a perfect environment where everything should work flawlessly. Hard pill to swallow: it's not!
 
