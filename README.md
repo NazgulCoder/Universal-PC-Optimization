@@ -30,6 +30,7 @@ I'll divide the guide into multiple chapters to improve readability and split it
   - [Optimize Windows](#optimize-windows)
   - [Windows Tweaks](#windows-tweaks)
   - [Network Tuning](#network-tuning)
+  - [Game Optimization](#game-optimization)
   - [Steps](#steps)
 - [Hardware](#hardware)
   - [Basic Usage](#basic-usage)
@@ -153,5 +154,41 @@ For optimal performance, consider the following settings based on your needs:
 - Decrease the maximum number of **RSS CPUs** in Hyper-V environments.
 
 A big vouch to SpeedGuide for providing these settings! I also recommend checking out their full guide [here](https://www.speedguide.net/articles/gaming-tweaks-5812) or [here for offline read](https://github.com/NazgulCoder/Universal-PC-Optimization/blob/main/uploads/SG%20__%20Gaming%20Tweaks.mhtml) and using **TCP Optimizer** with their profiles for even better performance.
+
+## Game Optimization
+
+To get the best performance in games, I personally recommend the following steps:
+
+### Use RivaTuner to Cap FPS
+- **Why cap FPS?** Capping your FPS can reduce input lag, prevent screen tearing, and lower GPU/CPU usage, keeping temperatures down.
+- **How to cap FPS:**
+  1. Install **MSI Afterburner** (RivaTuner Statistics Server comes bundled with it).
+  2. Open **RivaTuner Statistics Server (RTSS)**.
+  3. Add your game’s executable if it isn’t listed.
+  4. Set the **Framerate limit** to a value just below your monitor’s refresh rate (e.g., 141 FPS for a 144Hz monitor).
+
+This helps maintain smooth gameplay without unnecessary performance spikes.
+
+### Optimize In-Game Settings
+- **Resolution and Refresh Rate**: Always match the resolution and refresh rate to your monitor’s native specs.
+- **Graphics Settings**:
+  - **Textures**: Use High/Ultra only if your GPU has enough VRAM (6GB+ recommended). Otherwise, set to Medium.
+  - **Shadows**: Shadows are GPU-intensive—lower them if you’re struggling with FPS.
+  - **Anti-Aliasing (AA)**: If performance is a concern, use **TAA** or **FXAA**. Avoid higher AA settings like MSAA unless you have extra headroom.
+  - **V-Sync**: Turn off V-Sync if you're using a capped FPS or G-Sync/FreeSync to reduce input lag.
+  - **Field of View (FOV)**: A wider FOV may reduce FPS. Stick to a reasonable FOV that balances visibility and performance.
+
+### Disable Unnecessary Background Processes
+- **Game Mode**: Turn on **Windows Game Mode** to optimize resource allocation.
+- **Windows Notifications**: Disable notifications while gaming to avoid interruptions.
+- **Background Programs**: Use **Task Manager (Ctrl + Shift + Esc)** to close unneeded processes like Discord overlays, browsers, or any software updates running in the background.
+
+### Use a Game-Specific Config File (Optional)
+- Many games allow advanced tweaking through **config files** (e.g., `game.cfg` or `settings.ini`).
+  - Look for performance-related values like **MaxFPS**, **Draw Distance**, or **Shadow Quality**.
+  - Backup the original config before making changes, and tweak based on your system’s specs.
+
+A smooth gaming experience often comes down to balancing graphics settings with performance. Take the time to find what works best for your setup, and don't forget to monitor **temps** with MSI Afterburner or HWMonitor.
+
 
 WORK IN PROGRESS
