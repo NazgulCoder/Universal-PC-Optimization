@@ -111,7 +111,7 @@ I recommend also following these steps to tune your Windows for optimal performa
 
 ## Network Tuning
 
-## General Online Gaming Recommendations
+### General Online Gaming Recommendations
 
 I recommend the following steps to optimize your online gaming experience:
 
@@ -129,7 +129,7 @@ I recommend the following steps to optimize your online gaming experience:
 
 - **Close Unnecessary Programs**: Close unnecessary programs running on your network via Task Manager (Ctrl + Shift + Escape). P2P applications like uTorrent and Skype can consume bandwidth by opening many sockets for passive listening. Additionally, programs that check for software updates (e.g., Google updates, Adobe updates) can cause ping spikes.
 
-## Intel Recommended Network Adapter Settings
+### Intel Recommended Network Adapter Settings
 
 For optimal performance, consider the following settings based on your needs:
 
