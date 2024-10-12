@@ -77,7 +77,38 @@ Other honorable mentions for fine-tuning your PC, cleaning it of junk, and impro
 ## Windows Tweaks
 I recommend to disable [GameBarPresenceWriter](https://github.com/NazgulCoder/Universal-PC-Optimization/raw/refs/heads/main/uploads/Disable%20GameBarPresenceWriter.zip) and [MPO](https://github.com/NazgulCoder/Universal-PC-Optimization/raw/refs/heads/main/uploads/MPO.zip) to improve gaming performance by minimizing background interference and ensuring GPU and CPU resources are fully dedicated to the game. These optimizations are particularly beneficial for gamers experiencing stuttering, input lag, or screen tearing, especially in competitive settings where every millisecond counts. Disabling these features helps prioritize raw performance over non-essential functionalities, leading to a smoother and more consistent gaming experience.
 
-I recommend also to enable daily drive optimization. To do so, go to **Settings > System > Storage > Advanced storage settings > Drive optimization**, click **Optimize** for your drives, and make sure **Scheduled optimization** is turned on for automatic maintenance.
+I recommend also following these steps to tune your Windows for optimal performance:
+
+- **Daily Drive Optimization**  
+   Go to **Settings > System > Storage > Advanced storage settings > Drive optimization**. Click **Optimize** for each drive and enable **Scheduled optimization**.
+
+- **Display Refresh Rate**  
+   Go to **Settings > System > Display > Advanced display settings**. Under **Refresh rate**, select the highest available refresh rate for your monitor.
+
+- **Advanced Windows Graphics Settings**  
+   Go to **Settings > System > Display > Graphics settings**. Enable **Hardware-accelerated GPU scheduling** if available.
+
+- **Windows Storage Sense**  
+   Go to **Settings > System > Storage** and enable **Storage Sense** to automatically free up space.
+
+- **Nvidia App (or GPU Software)**  
+   Open **Nvidia Control Panel** or the relevant software (e.g., AMD or Intel GPU control panel). Configure **3D settings** for optimal performance.
+
+- **Global Low Latency Mode**  
+    In **Nvidia Control Panel**, go to **Manage 3D settings > Low Latency Mode** and set it to **On** or **Ultra** for minimal input lag.
+
+- **ShadowPlay Settings**  
+    Open **GeForce Experience > Settings > In-Game Overlay**. Configure **ShadowPlay** options like instant replay or recording settings based on your preference. If you want maximum performance then disable it.
+
+- **Disable Unneeded Audio Devices**  
+    Right-click the **Speaker icon** > **Sounds** > **Playback/Recording tabs**. Disable any unused audio devices to reduce system overhead.
+
+> [!CAUTION]
+> **High Performance Mode** <br>
+> This setting may cause high temperatures. <br>
+> Go to **Settings > System > Power & sleep > Additional power settings**. Select **High performance** or **Ultimate performance** (if available).
+
+
 
 
 
