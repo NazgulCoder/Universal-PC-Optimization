@@ -28,6 +28,7 @@ I'll divide the guide into multiple chapters to improve readability and split it
   - [Update Windows](#update-windows)
   - [Verify Windows](#verify-windows)
   - [Optimize Windows](#optimize-windows)
+  - [Windows Tweaks](#windows-tweaks)
   - [Steps](#steps)
 - [Hardware](#hardware)
   - [Basic Usage](#basic-usage)
@@ -72,5 +73,13 @@ Other honorable mentions for fine-tuning your PC, cleaning it of junk, and impro
 - [Tweaky](https://www.d7xtech.com/tweaky/) 
 - [CCleaner](https://www.ccleaner.com/ccleaner/download) - Mainly used for cleaning, fixing the registry, uninstalling apps, and removing unwanted apps from startup - **BEWARE OF INTRUSIVE ADS**
 - [AdwCleaner](https://www.malwarebytes.com/adwcleaner) - Remove Bloatwares
+
+## Windows Tweaks
+I recommend to disable [GameBarPresenceWriter](https://github.com/NazgulCoder/Universal-PC-Optimization/raw/refs/heads/main/uploads/Disable%20GameBarPresenceWriter.zip) and [MPO](https://github.com/NazgulCoder/Universal-PC-Optimization/raw/refs/heads/main/uploads/MPO.zip) to improve gaming performance by minimizing background interference and ensuring GPU and CPU resources are fully dedicated to the game. These optimizations are particularly beneficial for gamers experiencing stuttering, input lag, or screen tearing, especially in competitive settings where every millisecond counts. Disabling these features helps prioritize raw performance over non-essential functionalities, leading to a smoother and more consistent gaming experience.
+
+I recommend also to enable daily drive optimization. To do so, go to **Settings > System > Storage > Advanced storage settings > Drive optimization**, click **Optimize** for your drives, and make sure **Scheduled optimization** is turned on for automatic maintenance.
+
+
+
 
 WORK IN PROGRESS
