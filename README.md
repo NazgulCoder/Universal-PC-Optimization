@@ -29,6 +29,7 @@ I'll divide the guide into multiple chapters to improve readability and split it
   - [Verify Windows](#verify-windows)
   - [Optimize Windows](#optimize-windows)
   - [Windows Tweaks](#windows-tweaks)
+  - [Network Tuning](#network-tuning)
   - [Steps](#steps)
 - [Hardware](#hardware)
   - [Basic Usage](#basic-usage)
@@ -108,9 +109,49 @@ I recommend also following these steps to tune your Windows for optimal performa
 > This setting may cause high temperatures. <br>
 > Go to **Settings > System > Power & sleep > Additional power settings**. Select **High performance** or **Ultimate performance** (if available).
 
+## Network Tuning
 
+## General Online Gaming Recommendations
 
+I recommend the following steps to optimize your online gaming experience:
 
+- **Use Brand-Name Wired Ethernet Cards**: Whenever possible, use brand-name wired Ethernet cards instead of Wi-Fi, especially with USB client adapters, to ensure a stable connection.
+  
+- **TCP/IP Tweaks**: When tweaking TCP/IP (following our general tweaking articles), enable **CTCP**, enable **DCA**, and consider disabling most "TCP Offloading" settings, except for "Checksum Offload" in both the OS and Network Adapter Properties.
 
+- **Network Adapter Settings**: Disable **Flow Control** and **Interrupt Moderation** in your Network adapter properties. If you're not using IPv6, disable **TCP/IPv6** in the Network adapter properties as well.
+
+- **Background Processes**: Reduce the number of background processes running on your system, enable **QoS** at your router, and give priority to your gaming traffic.
+
+- **Test Latency**: Test your latency to game servers using the `tracert` command in Command Prompt (or PowerShell) to diagnose any connectivity issues.
+
+- **Disable Search Indexing**: Disable search indexing on your SSD/hard drive by right-clicking on the drive in Explorer, selecting **Properties**, and unticking **Allow files on this drive to have contents indexed...**. Wait a few minutes and ignore errors for system-protected files.
+
+- **Close Unnecessary Programs**: Close unnecessary programs running on your network via Task Manager (Ctrl + Shift + Escape). P2P applications like uTorrent and Skype can consume bandwidth by opening many sockets for passive listening. Additionally, programs that check for software updates (e.g., Google updates, Adobe updates) can cause ping spikes.
+
+## Intel Recommended Network Adapter Settings
+
+For optimal performance, consider the following settings based on your needs:
+
+### Optimized for Quick Response and Low Latency (Gaming):
+- Minimize or disable **Interrupt Moderation Rate**.
+- Disable **Offload TCP Segmentation**.
+- Increase **Transmit Descriptors**.
+- Increase **Receive Descriptors**.
+- Increase **RSS Queues**.
+
+### Optimized for Throughput:
+- Enable **Jumbo Frames**.
+- Increase **Transmit Descriptors**.
+- Increase **Receive Descriptors**.
+
+### For Low CPU Utilization:
+- Maximize **Interrupt Moderation Rate**.
+- Keep **Receive Descriptors** at default.
+- Avoid setting large **Receive Descriptors**.
+- Decrease **RSS Queues**.
+- Decrease the maximum number of **RSS CPUs** in Hyper-V environments.
+
+A big vouch to SpeedGuide for providing these settings! I also recommend checking out their full guide [here](https://www.speedguide.net/articles/gaming-tweaks-5812) or [here for offline read](https://github.com/NazgulCoder/Universal-PC-Optimization/blob/main/uploads/SG%20__%20Gaming%20Tweaks.mhtml) and using **TCP Optimizer** with their profiles for even better performance.
 
 WORK IN PROGRESS
