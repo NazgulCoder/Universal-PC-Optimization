@@ -93,7 +93,7 @@ I recommend also following these steps to tune your Windows for optimal performa
    Go to **Settings > System > Storage** and enable **Storage Sense** to automatically free up space.
 
 - **Nvidia App (or GPU Software)**  
-   Open **Nvidia Control Panel** or the relevant software (e.g., AMD or Intel GPU control panel). Configure **3D settings** for optimal performance.
+   Open **Nvidia Control Panel** or the relevant software (e.g., AMD or Intel GPU control panel). Configure **3D settings** for optimal performance. You may want to enable G-Sync as well.
 
 - **Global Low Latency Mode**  
     In **Nvidia Control Panel**, go to **Manage 3D settings > Low Latency Mode** and set it to **On** or **Ultra** for minimal input lag.
