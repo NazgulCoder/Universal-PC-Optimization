@@ -1,3 +1,6 @@
+# GPL v3 in a nutshell [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+You may copy, distribute and modify the software as long as you track changes/dates in source files. Any modifications to or software including (via compiler) GPL-licensed code must also be made available under the GPL along with build & install instructions.
+
 # Universal PC Optimization
 Universal PC Optimization is your go-to guide for all things related to enhancing your PC's performance! This release is designed to help users of all skill levels unlock the full potential of their computers. Inside, you'll find a wealth of valuable information on PC tweaking and fine-tuning, helping you optimize every aspect of your system's performance. Whether you're dealing with software errors, hardware failures, or just looking to squeeze out every last bit of speed from your setup, Universal PC Optimization has you covered. Dive in now to learn the best practices for keeping your PC running smoothly and efficiently! Feel free to contribute!
 
